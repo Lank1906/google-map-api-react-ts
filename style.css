@@ -137,15 +137,7 @@ input:focus{
     background: var(--primary-color);
     cursor: pointer;
   }
-  .color-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(255, 0, 0, 0.5); /* Màu đỏ với độ mờ */
-    mix-blend-mode: multiply; /* Sử dụng mix-blend-mode để tạo hiệu ứng bộ lọc */
-    pointer-events: none; /* Cho phép tương tác với bản đồ bên dưới */
-    filter: hue-rotate(20deg);
-    border: 3px solid black;
+  
+  .App img[src*='googleusercontent.com'] {
+    opacity: 0.2;
   }
